@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression" parallel="tests" thread-count="5">
+<parameter name="website" value="https://www.facebook.com"></parameter>
+<test name="it">
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<!--<class name="TestNG.Books"></class>-->
+<!--<class name="TestNG.NewTestSession"></class>-->
+<class name="TestNG.Providing"></class>
+</classes>
+</test>
+<!--<test name="kj">
+<parameter name="browser" value="Edge"></parameter>
+<classes>
+<class name="TestNG.Books"></class>
+<class name="TestNG.NewTestSession"></class>
+</classes>
+</test>-->
+</suite>
